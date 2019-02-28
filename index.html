@@ -2,9 +2,9 @@
 <html>
     <head>
     	<meta charset="utf-8">
-    	  <meta name="theme-color" content="#00CDAC" />
+    	 <meta name="theme-color" content="#00CDAC" />
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Form Creator</title>
+       <title>Form Creator</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -13,16 +13,18 @@
     <body style="width: 100%; height: 100%; overflow-x: hidden;">
     	<div class="mainDiv">
     		<h1>Hey there! Are you like me bored of writing code for forms?</h1>
-    		<h2>Want to get make form easily?</h2>
+    		<h2>Want to make form easily?</h2>
     		<p>I got your back man. This form generator will help you to make forms easily and let you get its code. So have a cup of coffee and enjoy</p>
+    		<p>You just need to add desired form you want by clicking below module and then just copy paste the generated code for your designed form</p>
     		<p >Version 1.2.0</p>
     	</div>
     	<br>
     <div class="row justify-content-center" style="width: 100%;margin-left: 0.5px">	
-    	<div class="col-sm-6 adc card" >
+    	<div class="col-sm-6 " >
+    		<div class="adc card">
     		<div class="addButton">
     			<h1>Create Your awesome form here</h1>
-    			<div class="outputForm">
+    			<div class="outputForm" id="out">
     				<form></form>
     			</div>
     			(click on this button to add your form data)<br>
@@ -39,12 +41,15 @@
 	    		<span class="btn btn-danger cls">Nah! i will code myself</span>
     		</div>
     	</div>
-    	<div class="col-sm-6 card adc" style="background: white">
-    		<h1>OUTPUT CODE:</h1>
+    	</div>
+    	
+    	<div class="col-sm-6 " >
+    		<div class="adc card" style="background: white">
+    		<h1>OUTPUT CODE: <span class="btn cpy">copy</span></h1>
     		<div class="output ">
     			<form></form>
-
     		</div>
+    	</div>
     	</div>
 	</div>
 	<div></div>
