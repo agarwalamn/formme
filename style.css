@@ -2,6 +2,7 @@
         cursor: pointer;
 }
 .myModal{
+        z-index: 5;
         position: absolute;
         left: -100%;
         top: 0px;
