@@ -1,6 +1,6 @@
 
 <div align="center">
-<h3>FORMME </h3>
+<h1>FORMME </h1>
   <p>
     <b>Awesome form generator 👽</b>
   </p>
