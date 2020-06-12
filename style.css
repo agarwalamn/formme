@@ -1,7 +1,7 @@
 html,body{
         padding: 0;
         margin:0;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Staatliches', cursive;
 }
 .addButton{
         cursor: pointer;
@@ -72,10 +72,14 @@ html,body{
         padding: 1em;
         font-weight: bold;
 }
+.footer p{
+        margin: 0;
+        padding: 0.2em;
+}
 .heading{
         background-color: #1de9b6;
         padding: 0.3em;
-
+        font-family: 'Anton';
         padding-left: 1em;
 
 }
